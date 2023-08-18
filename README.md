@@ -1,6 +1,8 @@
 # Suzu Runtime / Notation
 Szun is a library for defining, manipulating, and formatting structured, dynamically-typed data.
 
+> Version 0.0.1 is for reference purposes and contains unimplemented features, bugs, and documentation errors.
+
 ## Runtime
 The Szun runtime provides an interface for constructing and modfying data objects.
 
