@@ -1,0 +1,24 @@
+{
+	"folders": [
+		{
+			"path": "."
+		}
+	],
+	"settings": {
+		"rust-analyzer.linkedProjects": [
+			".\\Cargo.toml",
+			".\\Cargo.toml",
+			".\\Cargo.toml",
+			".\\Cargo.toml"
+		],
+		"rust-analyzer.showUnlinkedFileNotification": false,
+		"files.associations": {
+			"xstring": "cpp",
+			"xmemory": "cpp",
+			"vector": "cpp",
+			"initializer_list": "cpp",
+			"type_traits": "cpp",
+			"xutility": "cpp"
+		}
+	}
+}

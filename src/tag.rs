@@ -1,0 +1,25 @@
+//pub type Class = usize;
+
+pub const NULL     :usize = 0x00;
+pub const VARYING  :usize = 0x01;
+pub const BOOLEAN  :usize = 0x02;
+pub const NATURAL  :usize = 0x10;
+pub const INTEGER  :usize = 0x11;
+//pub const DECIMAL  :usize = 0x12;
+pub const SIGNIFICANT :usize = 0x13;
+//pub const COMPLEX  :usize = 0x14;
+//pub const RANGE    :usize = 0x1c;
+//pub const CHAR     :usize = 0x1d;
+pub const BLOCK    :usize = 0x1e;
+pub const SEQUENCE :usize = 0x1f;
+//pub const OPTIONAL  :usize = 0x20;
+//pub const SET      :usize = 0x21;
+pub const ARRAY    :usize = 0x22;
+pub const LIST     :usize = 0x23;
+//pub const SPARSE   :usize = 0x24;
+//pub const TRIE     :usize = 0x25;
+//pub const MAP      :usize = 0x26;
+//pub const TREE     :usize = 0x27;
+//pub const GRAPH    :usize = 0x28;
+pub const RECORD   :usize = 0x7e;
+pub const SCHEMA   :usize = 0x7f;

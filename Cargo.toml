@@ -1,0 +1,19 @@
+[package]
+name = "szun"
+version = "0.1.0"
+repository = "https://git.yukiri.dev/Suzu/szun"
+license-file = "LICENSE.txt"
+edition = "2021"
+publish = false
+
+[build-dependencies]
+cc = "1.0"
+
+[dependencies]
+yutil = { package = "util", git = "https://git.yukiri.dev/Yukiri/util.git" }
+
+[profile.dev]
+opt-level = 0
+
+[profile.release]
+opt-level = 3
